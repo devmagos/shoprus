@@ -1,0 +1,20 @@
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.hero div {
+    padding: 10px;
+}
+.heroHandIcon {
+    display: flex;
+}
+.heroHandIcon p, 
+.para p, 
+.heroLatesBtn div, h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.heroRight img {
+    height: 350px;
+}
