@@ -25,16 +25,16 @@ h1 {
     display: flex;
 }
 
-.cartIconCount {
-    width: 15px;
-    height: 15px;
+.cartTotalItem {
+    width: 20px;
+    height: 20px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -35px;
     margin-left: 50px;
-    font-size: 14px;
-    background: rgb(133, 130, 130);
-    color: #fff;
+    font-size: 11px;
+    background: #5579c0;
+    color: #050404;
 }

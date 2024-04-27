@@ -5,9 +5,8 @@ import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'phosphor-react'
 
 const Navbar = (props) => {
-  const { id } = props.data || {};
-  const { cartItems } = useContext(ShopContext);
-  const cartItemAmount = cartItems[id];
+  // const { id } = props.data || {};
+  const { updateCartItemCount } = useContext(ShopContext);
 
   return (
     <div className={Styles.nav}>
@@ -25,8 +24,8 @@ const Navbar = (props) => {
                 <span>
                   <ShoppingCart size={24} />
                 </span>
-                <span className={Styles.cartIconCount}>
-                  {cartItemAmount > 0 && <> ({cartItemAmount})</>}
+                <span className={Styles.cartTotalItem}>
+                 {updateCartItemCount === 0 ? 0 : (e) => updateCartItemCount(e.target.value)}
                 </span>
               </Link>
             </p>

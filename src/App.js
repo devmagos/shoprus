@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './Components/Navbar';
 // import Home from './Pages/Home';
 import Shop from './Pages/Shop';
+// import PaystackIntegration from './Pages/Checkout/PaystackIntegration';
+import PaystackCheckout from './Pages/Checkout/PaystackCheckout'
 import Gadjets from './Pages/Gadjet';
 import Mens from './Pages/Mens';
 import Womens from './Pages/Womens';
@@ -19,6 +21,8 @@ function App() {
           <Navbar />
         <Routes>
           <Route path='/' element={<Shop />} />
+          {/* <Route path='/checkout' element={<PaystackIntegration />} /> */}
+          <Route path='/checkout' element={<PaystackCheckout />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/gadjets' element={<Gadjets />} />
           <Route path='/men' element={<Mens />} />

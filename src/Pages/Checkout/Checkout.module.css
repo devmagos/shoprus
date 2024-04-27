@@ -1,0 +1,30 @@
+.paymentForm {
+    margin: 40px auto;
+    width: 350px;
+}
+
+.formGroup
+.formSubmit {
+    padding: 10px;
+}
+
+.emailAddress, 
+.amount, 
+.firstName, 
+.lastName,
+.formSubmitbtn {
+    border: 0.1px solid grey;
+    padding: 5px;
+    border-radius: 8px;
+}
+.formSubmitbtn {
+    margin: 20px 0;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+.itemImage {
+    width: 400px;
+}

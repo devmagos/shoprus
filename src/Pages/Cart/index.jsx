@@ -28,7 +28,7 @@ const Cart = () => {
       <div className={Styles.checkout}>
         <p>Subtotal: ${totalAmount}</p>
         <button onClick={() => navigate("/shop")}>Continue Shopping</button>
-        <button>Checkout</button>
+        <button onClick={() => navigate("/checkout")}>Checkout</button>
       </div>
       : <h1>Your Cart is Empty</h1>}
     </div>  
